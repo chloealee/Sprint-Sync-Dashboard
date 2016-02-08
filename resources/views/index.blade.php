@@ -19,7 +19,7 @@
     	<div class="header"><h1>Sprint Sync Dashboard</h1></div>
 
     	<div class="carousel">
-	    	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="30000">
+	    	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="60000">
 			  <!-- Indicators -->
 			  <ol class="carousel-indicators">
 			    <!-- <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li> -->
@@ -37,16 +37,22 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner">
 			    <div class="item active">
-   					<div id="qb"><img src={{asset('images/marah.png')}}></div>
-   					<div class="team"><img src={{asset('images/aaron.png')}}></div>
-					<div class="team"><img src={{asset('images/chloe.png')}}></div>
-			        <div class="team"><img src={{asset('images/dave.png')}}></div>
-			      	<div class="team"><img src={{asset('images/uy.png')}}></div>
-			      	<div class="team"><img src={{asset('images/luke.png')}}></div>			      
-			      
-			      <div class="carousel-caption">
+			    	<div class="team">
+	   					<div id="qb"><img src={{asset('images/marah.png')}}></div>
+	   					<div class="team_member"><img src={{asset('images/aaron.png')}}></div>
+						<div class="team_member"><img src={{asset('images/chloe.png')}}></div>
+				        <div class="team_member"><img src={{asset('images/dave.png')}}></div>
+				      	<div class="team_member"><img src={{asset('images/uy.png')}}></div>
+				      	<div class="team_member"><img src={{asset('images/luke.png')}}></div>
+				    </div>			      
+			      	
+			      	<div class="list">
+			      		<h3>Here's what the Let's Do This team is working on:</h3>
+			      	</div>
+
+			      <!-- <div class="carousel-caption">
 			          <h3>Let's Do This</h3>
-			      </div>
+			      </div> -->
 			    </div>
 			    <div class="item">
 			    	<div class="team2">
