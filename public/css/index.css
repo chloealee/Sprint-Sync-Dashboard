@@ -27,10 +27,19 @@
 	margin: 1% 0 0 20%;
 }
 
-.list h3 {
+.list {
 	color: white;
 	font-family: 'Proxima Nova';
-	margin: -30% 0 50% 45%;
+	margin: -30% 0 50% 40%;
+}
+
+.list h3 {
+	font-size: 50px;
+}
+
+.list li {
+	font-size: 30px;
+	margin-left: 10%;
 }
 
 .carousel-caption {
@@ -41,18 +50,27 @@
 
 .team2 {
 	text-align: center;
-	/*margin-bottom: 100%;*/
-}
-
-.col-md-4 img {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
 	margin-top: 5%;
 }
 
-.caption h3{
-	text-align: center;
+.col-md-1 img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.caption {
+	margin: 10% 0 25% 0;
 	color: white;
 	font-family: 'Proxima Nova';
+}
+
+.caption h3 {
+	font-size: 50px;
+	text-align: center;
+}
+
+.caption li{
+	font-size: 30px;
+	margin-left: 40%;
 }
