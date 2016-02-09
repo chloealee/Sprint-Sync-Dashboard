@@ -10,48 +10,14 @@
 }
 
 .team {
-	margin-top: 2%;
-}
-
-#qb img {
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	margin-left: 19%;
-}
-
-.team_member img {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	margin: 1% 0 0 20%;
-}
-
-.list {
-	color: white;
-	font-family: 'Proxima Nova';
-	margin: -30% 0 50% 40%;
-}
-
-.list h3 {
-	font-size: 50px;
-}
-
-.list li {
-	font-size: 30px;
-	margin-left: 10%;
-}
-
-.carousel-caption {
-	color: white;
-	margin-top: 5%;
-	font-family: 'Proxima Nova';
-}
-
-.team2 {
 	text-align: center;
 	margin-top: 5%;
 }
+/*.carousel-caption {
+	color: white;
+	margin-top: 5%;
+	font-family: 'Proxima Nova';
+}*/
 
 .col-md-1 img {
 	width: 150px;
@@ -59,18 +25,31 @@
 	border-radius: 50%;
 }
 
-.caption {
+.list {
 	margin: 10% 0 25% 0;
 	color: white;
 	font-family: 'Proxima Nova';
 }
 
-.caption h3 {
+.list h3 {
 	font-size: 50px;
 	text-align: center;
 }
 
-.caption li{
+.list li{
 	font-size: 30px;
 	margin-left: 40%;
 }
+
+#three {
+	padding-left: 5%;
+}
+
+#odd {
+	padding-right: 8%;
+}
+
+#one {
+	padding-left: 5%;
+}
+

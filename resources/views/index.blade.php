@@ -42,36 +42,37 @@
 			  <div class="carousel-inner">
 			    <div class="item active">
 			    	<div class="team">
-	   					<div id="qb"><img src={{asset('images/marah.png')}}></div>
-	   					<div class="team_member"><img src={{asset('images/aaron.png')}}></div>
-						<div class="team_member"><img src={{asset('images/chloe.png')}}></div>
-				        <div class="team_member"><img src={{asset('images/dave.png')}}></div>
-				      	<div class="team_member"><img src={{asset('images/uy.png')}}></div>
-				      	<div class="team_member"><img src={{asset('images/luke.png')}}></div>
+	   					<div class="col-md-1 col-md-offset-3"><img src={{asset('images/marah.png')}}></div>
+	   					<div class="col-md-1"><img src={{asset('images/aaron.png')}}></div>
+						<div class="col-md-1"><img src={{asset('images/chloe.png')}}></div>
+				        <div class="col-md-1"><img src={{asset('images/dave.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/luke.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/uy.png')}}></div>
+				      	<br>
 				    </div>			      
 			      	
 			      	<div class="list">
-			      		<h3><span style="font-family: 'Covered By Your Grace'; font-size: 75px; color: #5F2B63;">Let's Do This</span> work this week:</h3>
-			      		<ul>
+				        <h3><span style="font-family: 'Covered By Your Grace'; font-size: 75px; color: #5F2B63;">Let's Do This</span> work this week:</h3>
+				        <ul>
 				        	<li>Thing 1</li>
 				        	<li>Thing 2</li>
 				        	<li>Thing 3</li>
 				        </ul>
-			      	</div>
+				    </div>
 
 			      <!-- <div class="carousel-caption">
 			          <h3>Let's Do This</h3>
 			      </div> -->
 			    </div>
 			    <div class="item">
-			    	<div class="team2">
+			    	<div class="team">
 			  			<div class="col-md-1 col-md-offset-4"><img src={{asset('images/freddie.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/marah.png')}}></div>
 				      	<div class="col-md-1"><img src={{asset('images/morgan.png')}}></div>
 				      	<div class="col-md-1"><img src={{asset('images/uy.png')}}></div>
-				      	<div class="col-md-1"><img src={{asset('images/marah.png')}}></div>
 				      	<br>
 				    </div>
-			      	<div class="caption">
+			      	<div class="list">
 				        <h3><span style="font-family: 'Covered By Your Grace'; font-size: 75px; color: #5F2B63;">SMS</span> work this week:</h3>
 				        <ul>
 				        	<li>Thing 1</li>
@@ -81,52 +82,135 @@
 				    </div>
 			    </div>
 			    <div class="item">
-			      <!-- <img src="http://placehold.it/1200x315" alt="..."> -->
-			      <div class="carousel-caption">
-			          <h3>Phoenix</h3>
-			      </div>
+			        <div class="team">
+			  			<div class="col-md-1 col-md-offset-2"><img src={{asset('images/fantini.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/andrea.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/chloe.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/diego.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/joe.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/luke.png')}}></div>
+					    <div class="col-md-1"><img src={{asset('images/nami.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/shae.png')}}></div>
+				      	<br>
+				    </div>
+			      	<div class="list">
+				        <h3><span style="font-family: 'Covered By Your Grace'; font-size: 75px; color: #5F2B63;">Phoenix</span> work this week:</h3>
+				        <ul>
+				        	<li>Thing 1</li>
+				        	<li>Thing 2</li>
+				        	<li>Thing 3</li>
+				        </ul>
+				    </div>
 			    </div>
 			   	<div class="item">
-			      <!-- <img src="http://placehold.it/1200x315" alt="..."> -->
-			      <div class="carousel-caption">
-			          <h3>Platform/Ops</h3>
-			      </div>
+			        <div class="team">
+			  			<div class="col-md-1 col-md-offset-4"><img src={{asset('images/sena.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/matt.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/morgan.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/sergii.png')}}></div>
+				      	<br>
+				    </div>
+			      	<div class="list">
+				        <h3><span style="font-family: 'Covered By Your Grace'; font-size: 75px; color: #5F2B63;">Platform/Ops</span> work this week:</h3>
+				        <ul>
+				        	<li>Thing 1</li>
+				        	<li>Thing 2</li>
+				        	<li>Thing 3</li>
+				        </ul>
+				    </div>
 			    </div>
 			   	<div class="item">
-			      <!-- <img src="http://placehold.it/1200x315" alt="..."> -->
-			      <div class="carousel-caption">
-			          <h3>Message Broker</h3>
-			      </div>
+			        <div class="team">
+			  			<div class="col-md-1 col-md-offset-4"><img src={{asset('images/dee.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/matt.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/marah.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/sergii.png')}}></div>
+				      	<br>
+				    </div>
+			      	<div class="list">
+				        <h3><span style="font-family: 'Covered By Your Grace'; font-size: 75px; color: #5F2B63;">Message Broker</span> work this week:</h3>
+				        <ul>
+				        	<li>Thing 1</li>
+				        	<li>Thing 2</li>
+				        	<li>Thing 3</li>
+				        </ul>
+				    </div>
 			    </div>
 			    <div class="item">
-			      <!-- <img src="http://placehold.it/1200x315" alt="..."> -->
-			      <div class="carousel-caption">
-			          <h3>DSGD</h3>
-			      </div>
+			        <div class="team" id="three">
+			  			<div class="col-md-1 col-md-offset-4" id="odd"><img src={{asset('images/uy.png')}}></div>
+				      	<div class="col-md-1" id="odd"><img src={{asset('images/freddie.png')}}></div>
+				      	<div class="col-md-1" id="odd"><img src={{asset('images/jasmine.png')}}></div>
+				      	<br>
+				    </div>
+			      	<div class="list">
+				        <h3><span style="font-family: 'Covered By Your Grace'; font-size: 75px; color: #5F2B63;">DSGD</span> work this week:</h3>
+				        <ul>
+				        	<li>Thing 1</li>
+				        	<li>Thing 2</li>
+				        	<li>Thing 3</li>
+				        </ul>
+				    </div>
 			    </div>
 			    <div class="item">
-			      <!-- <img src="http://placehold.it/1200x315" alt="..."> -->
-			      <div class="carousel-caption">
-			          <h3>Longshot</h3>
-			      </div>
+			        <div class="team">
+			  			<div class="col-md-1 col-md-offset-5"><img src={{asset('images/andrea.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/katie.png')}}></div>
+				      	<br>
+				    </div>
+			      	<div class="list">
+				        <h3><span style="font-family: 'Covered By Your Grace'; font-size: 75px; color: #5F2B63;">Longshot</span> work this week:</h3>
+				        <ul>
+				        	<li>Thing 1</li>
+				        	<li>Thing 2</li>
+				        	<li>Thing 3</li>
+				        </ul>
+				    </div>
 			    </div>
 			   	<div class="item">
-			      <!-- <img src="http://placehold.it/1200x315" alt="..."> -->
-			      <div class="carousel-caption">
-			          <h3>Voting App</h3>
-			      </div>
+			        <div class="team">
+			  			<div class="col-md-1 col-md-offset-5"><img src={{asset('images/andrea.png')}}></div>
+				      	<div class="col-md-1"><img src={{asset('images/dave.png')}}></div>
+				      	<br>
+				    </div>
+			      	<div class="list">
+				        <h3><span style="font-family: 'Covered By Your Grace'; font-size: 75px; color: #5F2B63;">Voting App</span> work this week:</h3>
+				        <ul>
+				        	<li>Thing 1</li>
+				        	<li>Thing 2</li>
+				        	<li>Thing 3</li>
+				        </ul>
+				    </div>
 			    </div>
 			    <div class="item">
-			      <!-- <img src="http://placehold.it/1200x315" alt="..."> -->
-			      <div class="carousel-caption">
-			          <h3>Quasar</h3>
-			      </div>
+			        <div class="team" id="three">
+			  			<div class="col-md-1 col-md-offset-4" id="odd"><img src={{asset('images/nami.png')}}></div>
+				      	<div class="col-md-1" id="odd"><img src={{asset('images/dave.png')}}></div>
+				      	<div class="col-md-1" id="odd"><img src={{asset('images/sena.png')}}></div>
+				      	<br>
+				    </div>
+			      	<div class="list">
+				        <h3><span style="font-family: 'Covered By Your Grace'; font-size: 75px; color: #5F2B63;">Quasar</span> work this week:</h3>
+				        <ul>
+				        	<li>Thing 1</li>
+				        	<li>Thing 2</li>
+				        	<li>Thing 3</li>
+				        </ul>
+				    </div>
 			    </div>
 			    <div class="item">
-			      <img src="http://placehold.it/1200x315" alt="...">
-			      <div class="carousel-caption">
-			          <h3>Northstar</h3>
-			      </div>
+			        <div class="team" id="one">
+			  			<div class="col-md-1 col-md-offset-5"><img src={{asset('images/dave.png')}}></div>
+				      	<br>
+				    </div>
+			      	<div class="list">
+				        <h3><span style="font-family: 'Covered By Your Grace'; font-size: 75px; color: #5F2B63;">Northstar</span> work this week:</h3>
+				        <ul>
+				        	<li>Thing 1</li>
+				        	<li>Thing 2</li>
+				        	<li>Thing 3</li>
+				        </ul>
+				    </div>
 			    </div>
 			  </div>
 			 
